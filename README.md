@@ -8,3 +8,7 @@ Second Commit
 
 Solved a filter issue byt just removing one space in the HTML body in the ul tag.
 
+Third Commit 
+
+Created a separated array in the local storage to save the completed todos and show them in a different section, i hope in the future i can do it faster, i it took me 3 hours :(
+
