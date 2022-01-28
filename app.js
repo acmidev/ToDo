@@ -77,7 +77,13 @@ function deleteCheck(e){
         todo.classList.toggle("completed");
         if(todo.classList.contains("completed")){
             saveLocalCompleted(todo.innerText)
-        }else{
+            removeLocalTodos(todo)
+            todo.addEventListener('transitionend', function(){
+                todo.remove();
+            })
+        }
+        
+        else{
             removeLocalCompleted(todo)
             
           
